@@ -7,7 +7,7 @@ public class Customer {
   private String password;
   private int accountId;
 
-  public Customer(int id, String name, String username, String passowrd, int accountId){
+  public Customer(int id, String name, String username, String password, int accountId){
     setId(id);
     setName(name);
     setUsername(username);
@@ -54,7 +54,4 @@ public class Customer {
   public void setAccountId(int accountId) {
     this.accountId = accountId;
   }
-
-
-
-}
+ }
